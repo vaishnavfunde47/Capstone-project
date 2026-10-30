@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+cred.txt
+notebooks/
+local_s3
+
+data/
+models/
