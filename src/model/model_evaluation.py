@@ -12,7 +12,7 @@ from src.logger import logger
 
 
 import dagshub
-dagshub.init(repo_owner='vaishnavfunde47', repo_name='Capstone-project', mlflow=True)
+
 
 # Below code block is for production use
 # -------------------------------------------------------------------------------------
@@ -34,6 +34,7 @@ dagshub.init(repo_owner='vaishnavfunde47', repo_name='Capstone-project', mlflow=
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
+dagshub.init(repo_owner='vaishnavfunde47', repo_name='Capstone-project', mlflow=True)
 mlflow.set_tracking_uri('https://dagshub.com/vaishnavfunde47/Capstone-project.mlflow')
 # -------------------------------------------------------------------------------------
 

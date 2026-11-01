@@ -20,8 +20,8 @@ warnings.filterwarnings("ignore")
 # os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 
 # dagshub_url = "https://dagshub.com"
-# repo_owner = "vikashdas770"
-# repo_name = "YT-Capstone-Project"
+# repo_owner = "vaishnavfunde47"
+# repo_name = "Capstone-Project"
 # # Set up MLflow tracking URI
 # mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 # -------------------------------------------------------------------------------------
